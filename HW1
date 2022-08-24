@@ -1,0 +1,21 @@
+public class main {
+    public static void main(String[] args) {
+        System.out.println("homework 1");
+
+        short x = 12;
+        int y = 13;
+        long z = 34;
+        System.out.println(x + y + z);
+        System.out.println(x * y * z);
+        System.out.println(x + y == z);
+
+        System.out.println("homework 2");
+
+        int numberorg = 12;
+        int number = ((numberorg + 3) * 123 - numberorg) * 45;
+        short numberresult = (short) number;
+        System.out.println(number);
+        System.out.println(numberresult);
+
+    }
+}
