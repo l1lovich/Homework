@@ -89,7 +89,7 @@ public class main {
         else {
             System.out.println("Корней нет");
         }
-
+System.out.println("Homework 6");
         Scanner triangle = new Scanner(System.in);
         System.out.println("Введите число:");
         int tri = triangle.nextInt();
